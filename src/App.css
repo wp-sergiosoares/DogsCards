@@ -1,10 +1,17 @@
 .dog-container {
     display: flex;
     flex-direction: row;
+    gap:50px;
 }
 
 .dog-header img {
     width: 350px;
+}
+
+.dog-content {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
 }
 
 .dog-list {
@@ -12,6 +19,8 @@
     flex-direction: row;
     gap: 20px;
     flex-wrap: wrap;
+    justify-content: flex-start;
+    margin:0;
 }
 
 .dog-list li {

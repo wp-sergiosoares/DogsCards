@@ -1,11 +1,11 @@
 import React from "react";
-import DogSingle from "./DogSingle";
+import DogListSingle from "./DogListSingle";
 
 const DogList = ({ dogsGuardados }) => {
   return (
     <ul className="dog-list">
       {dogsGuardados.map((dog) => (
-        <DogSingle key={dog.id} dog={dog} />
+        <DogListSingle key={dog.id} dog={dog} />
       ))}
     </ul>
   );

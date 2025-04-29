@@ -59,6 +59,7 @@ const Dog = () => {
       )}
 
       <div className="dog-content">
+        <div>Neste momento tem {dogArray.length} cães guardados.</div>
         <DogList dogsGuardados={dogArray} />
       </div>
 

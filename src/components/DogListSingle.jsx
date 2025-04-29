@@ -1,6 +1,6 @@
 import React from "react";
 
-const DogSingle = ({ dog }) => {
+const DogListSingle = ({ dog }) => {
   return (
     <li className="dog-single">
       <img src={dog.message} alt="Dog" />
@@ -8,4 +8,4 @@ const DogSingle = ({ dog }) => {
   );
 };
 
-export default DogSingle;
+export default DogListSingle;
