@@ -1,52 +1,22 @@
 .dog-container {
     display: flex;
-    gap:50px;
+    flex-direction: row;
 }
 
-
-.dog-header {
-    
-}
-
-.dog-content {
-
+.dog-header img {
+    width: 350px;
 }
 
 .dog-list {
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
-    justify-content:flex-start;
+    gap: 20px;
     flex-wrap: wrap;
-    gap:10px;
 }
 
-.dog-pic-day {
-    display: flex;
-    padding: 20px;
-    background: #ccc;
-    flex-direction: column;
-    align-items: center;
-    gap:20px;
+.dog-list li {
+    list-style: none;
 }
-
-.dog-pic-day img {
-    width: 350px;
-}
-
-
-.dog-list .dog-single {
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-
 .dog-single img {
     width: 150px;
-}
-
-.buttons {
-    display: flex;
-    gap:10px;
 }
